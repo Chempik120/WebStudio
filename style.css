@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    list-style: none;
 }
 
 
@@ -198,4 +199,91 @@ text-align: center;
 background-image: url(./images/background.png) ;
 background-color: rgba(47, 48, 58, 0.40);
 
+}
+
+
+.partners{
+    height: 270px;
+}
+
+.partners-heading{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-top: 94px;
+margin-bottom: 50px;
+}
+
+.partners-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.partner{
+    width: 170px;
+height: 92px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 2px solid #AFB1B8;
+margin-right: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.icon-Logo{
+    color: #AFB1B8;
+   font-size: 60px;
+    
+    
+}
+
+.icon-Logo1{
+    color: #AFB1B8;
+    font-size: 60px;
+}
+
+.icon-Logo2{
+    color: #AFB1B8;
+    font-size: 60px;
+}
+
+.icon-Logo3{
+    color: #AFB1B8;
+    font-size: 60px;
+}
+
+.icon-Logo4{
+    color: #AFB1B8;
+    font-size: 60px;
+    
+}
+
+.icon-Logo:hover{
+    color: #2196F3;
+}
+
+.icon-Logo1:hover{
+    color: #2196F3;
+}
+
+.icon-Logo2:hover{
+    color: #2196F3;
+}
+
+.icon-Logo3:hover{
+    color: #2196F3;
+}
+
+.icon-Logo4:hover{
+    color: #2196F3;
+}
+
+.partner:hover{
+   border-color: #2196F3;
 }
