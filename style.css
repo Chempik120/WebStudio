@@ -4,6 +4,8 @@
     box-sizing: border-box;
     border: none;
     list-style: none;
+    text-decoration: none;
+    color: #212121;
 }
 
 
@@ -266,22 +268,27 @@ align-items: center;
 
 .icon-Logo:hover{
     color: #2196F3;
+    transition-duration: 250ms;
 }
 
 .icon-Logo1:hover{
     color: #2196F3;
+    transition-duration: 250ms;
 }
 
 .icon-Logo2:hover{
     color: #2196F3;
+    transition-duration: 250ms;
 }
 
 .icon-Logo3:hover{
     color: #2196F3;
+    transition-duration: 250ms;
 }
 
 .icon-Logo4:hover{
     color: #2196F3;
+    transition-duration: 250ms;
 }
 
 .partner:hover{
@@ -502,4 +509,114 @@ margin-top: 8px;
 
 .close{
     background-color: transparent;
+}
+
+.navi-item{
+    
+}
+
+.navi-cont{
+    display: flex;
+    align-items: baseline;
+    padding-top: 24px;
+}
+
+.web{
+    color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+.logo-web{
+    margin-left: 215px;
+}
+
+.studio{
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+.navi-item{
+color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+margin-right: 50px;
+}
+
+.navi-studio{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-left: 93px;
+    margin-right: 50px;
+}
+
+.navi-email{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-left: 341px;
+    margin-right: 50px;
+}
+
+.linkk{
+    position: relative;
+}
+
+.linkk:hover{
+    color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+
+
+.headeer{
+    height: 80px;
+}
+
+
+.linkk::after{
+    content: '';
+    transform: scale(0);
+    transition: transform cubic-bezier(0.445, 0.05, 0.55);
+    transition-duration: 250ms;
+    
+}
+
+.linkk:hover:after{
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    transform: scale(1);
+    width: 100%;
+    height: 3px;
+    background-color: #2196F3;
+    border-radius: 2px;
 }
